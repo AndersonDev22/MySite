@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 100%;
   height:100%;
   padding:1rem;
-  border:1px solid red;
+  //border:1px solid red;
   
 
   h1{
@@ -30,7 +30,7 @@ export const ContainerSkill = styled.div`
   margin-top:2rem;
   padding:2rem;
   margin-top:2rem;
-  border:1px solid black;
+  //border:1px solid black;
   
   
 
@@ -49,14 +49,14 @@ export const ContainerSkill = styled.div`
     justify-content:center;
     align-items:center;
     margin:1rem;
-    width:40rem;
-    height:100%;
+    width:30rem;
+    height:0 auto;
     max-width:100%;
 
     &:hover{
       transition:0.3s;
       filter:brightness(0.9);
-      zoom:1.07;
+      //zoom:1.07;
     }
     
     //border:5px solid goldenrod;

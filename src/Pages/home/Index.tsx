@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Index';
 import Skill from '../../components/Skill';
 import Portfolio from '../../components/Portfolio';
 import {Container} from './styled';
+import Contact from '../../components/Contact/Index';
 
 
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
       <About/>
       <Skill/>
       <Portfolio/>
-      
+      <Contact/>
               
     </Container>
 
