@@ -18,6 +18,7 @@ export const Container = styled.div`
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
+    margin-bottom: 2rem;
   }
 `
 export const ContainerSkill = styled.div`

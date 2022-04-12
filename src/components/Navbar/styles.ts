@@ -7,56 +7,64 @@ export const Nav = styled.nav `
   top:0px;
   position:fixed;
   display:flex;
+  justify-content:space-between;
+  align-items:center;
   width:100%;
   background:#ffffff;
   height:60px;
- 
   
-  justify-content:space-between;
   padding: 0.5rem 1rem;
   z-index:20;
-  flex-wrap:wrap;
+  //flex-wrap:wrap;
   max-width:100%;  
 `
- export const Bars = styled(FaBars)`
-  display: none;
-  color: #0B1840;
+//  export const Bars = styled(FaBars)`
+//   border:1px solid black;
+//   display: none;
+//   color: #0B1840;
 
-  @media screen and (max-width: 768px) {
-    display:block;
-    position:absolute;
-    top:0;
-    right:0;
-    transform: translate(-100, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-`
-export const LogoDiv = styled.div`
-  width:30%;
+//   @media screen and (max-width: 768px) {
+//     display:block;
+//     position:absolute;
+//     top:10px;
+//     right:10px;
+//     transform: translate(-100, 75%);
+//     font-size: 1.8rem;
+//     cursor: pointer;
+//   }
+// `
+export const Logo = styled.div`
+  border:1px solid blue;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:25rem;
   height:100%;
+  max-width:100%;
+  //margin-left:2rem;
   
   figure{
 
-    width:100%;
-    height:100%;
+      display:flex;
+      width:25rem;
+      height:100%;
+      max-width:100%;
     
     img{
-      width:70%;
-      height:auto;
+      display:flex;
+      width:25rem;
+      height:100%;
+      max-width:100%;
     }
   }    
 `
-export const Logotipo = styled.img`
-  background-repeat:no-repeat;
-  background-size:contain;
-  width:100%;
-  height:100%;
-`
-
 export const NavMenu = styled.div`
+  
+  border:1px solid blue;
   display:flex;
   align-items: center;
+  margin-right:2rem;
     
  a{
     font-family: 'Roboto', sans-serif;
@@ -75,6 +83,6 @@ export const NavMenu = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    display:none;
+    //display:none;
   }
 `

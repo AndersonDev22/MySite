@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../images/Logo.png';
-import { LogoDiv, Logotipo, Nav, NavMenu } from './styles';
+import Logotipo from '../../images/Logo.png';
+import { Logo, Nav, NavMenu } from './styles';
 
 const menu = [
   {
@@ -32,11 +32,11 @@ const NavBar: React.FC = () => {
   return(
     <Nav>
 
-      <LogoDiv>
+      <Logo>
        <figure>
-         <img src={Logo} alt="Logo"/>
+         <img src={Logotipo} alt="Logo"/>
        </figure>
-      </LogoDiv>
+      </Logo>
 
       <NavMenu>
         {

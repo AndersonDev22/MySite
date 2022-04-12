@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import wallpaper from '../../images/wallpaper.png';
-
 
 export const Container = styled.div` //PAI
   //border:1px solid dodgerblue;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div` // PAI
-  //border:1px solid red;
+  border:1px solid red;
   
   display:flex;
   flex-direction:column;
@@ -20,25 +20,28 @@ export const Container = styled.div` // PAI
   }
 `
 export const ContainerForm = styled.div` //FILHO
-  //border:1px solid blue;
+  border:1px solid red;
   
   display:flex;
   justify-content:center;
-  align-items:center; 
-  background: #ffffff;
-  width: 80rem;
+  align-items:center;
+  //flex-wrap:wrap;
+  width: 100%;
   height:100%;
-  padding:1rem;
+  max-width:100%;
   
 `  
 
 export const Form = styled.form` //FORMULÁRIO
-  //border:2px solid blue;
+  border:2px solid blue;
 
-  width:100%;
-  height:0 auto;
-  margin:0 auto;
-  font-size:18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  width: 100%;
+  height:100%;
+  max-width:100%;
 `
 export const InputContainer = styled.div` // CAIXAS DE TEXTO
   display: flex;
@@ -47,6 +50,7 @@ export const InputContainer = styled.div` // CAIXAS DE TEXTO
   align-items: center;
   height: 20%;
   width: 100%;
+  max-width:100%;
 `;
 
 export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
@@ -86,6 +90,7 @@ export const Message = styled.textarea`
   color: #3c354e;
   font-size: 1rem;
   font-weight: bold;
+  max-width:100%;
 
   &:focus {
     display: inline-block;

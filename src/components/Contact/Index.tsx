@@ -20,6 +20,7 @@ const StyledInput = styled.input`
   color: #3c354e;
   font-size: 1rem;
   font-weight: bold;
+  max-width:100%;
 
   &:focus {
     display: inline-block;
@@ -40,7 +41,7 @@ const Contact: React.FC = () => {
   return (
     <Container>
 
-      <h1>Contact me</h1>
+      <h1> &gt;&gt;&gt;&nbsp; Contact me &nbsp;&lt;&lt;&lt;</h1>
 
       <ContainerForm>
         

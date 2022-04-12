@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  //border: 1px solid gray;
+  
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -14,18 +16,22 @@ export const Container = styled.div`
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
+    margin-bottom: 2rem;
   }
 `
 export const ContainerSkill = styled.div`
+  //border:1px solid red;
+  
   display:flex;
   justify-content:center;
+  align-items:center;
   flex-wrap:wrap;
-  width: 100%;
-  height:100%;
+  width: 90%;
+  height:0 auto;
   max-width:100%;
   padding:2rem;
   margin-top:2rem;
-  //border:1px solid red;
+  
   
 
   img{
