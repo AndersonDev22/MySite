@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div` //PAI
   //border:1px solid dodgerblue;
-  
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -10,22 +9,19 @@ export const Container = styled.div` //PAI
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:0.5rem;
-  
+  padding:0.5rem; 
+  margin-bottom:2rem;
 `
 export const ContainerAbout = styled.div`//FILHO
   //border:1px solid black;
-  
   display:flex;
   justify-content:center;
   align-items:center;
-  //flex-wrap:wrap;
   width: 100%;
   height:100%;
-  max-width:100%;
+  max-width:100%;  
   
-  
-  @media screen and (max-width:1439px){
+  @media screen and (max-width:860px){
     flex-direction:column-reverse;
   }
 `
@@ -50,32 +46,46 @@ export const SectionAboutMe = styled.div` //APRESENTAÇÃO
 `
 export const SectionAvatar = styled.div` //MINHA FOTO
     //border:1px solid orangered;
-
     display:flex;
     justify-content:center;
     align-items:center;
-    width:40rem;
+    width:0 auto;
     height:100%;
     max-width:100%;
   
   figure{
 
       display:flex;
-      width:40rem;
+      width:0 auto;
       height:100%;
       max-width:100%;
-    
+
+      @media screen and (max-width:1440px){
+    width:30rem;
+
+    @media screen and (max-width:970px){
+    width:25rem;
+  }
+  }  
     img{
       display:flex;
-      width:40rem;
+      width:0 auto;
       height:100%;
       max-width:100%;
+
+      @media screen and (max-width:1440px){
+    width:30rem;
+
+    @media screen and (max-width:970px){
+    width:25rem;
+  }
+  }
+
     }
-  }            
+  }    
 `
 export const TxtHello = styled.h1` //HELLO
   //border:1px solid blueviolet;
-
   font-family:'Audiowide', cursive;
   margin-bottom:50px;
   color:#141049;
@@ -88,7 +98,6 @@ export const TxtHello = styled.h1` //HELLO
 `
 export const TxtName = styled.h1` //MEU NOME
   //border:1px solid orangered;
-
   width: 100%;
   height:100%;
   max-width:100%;
@@ -105,7 +114,6 @@ export const TxtName = styled.h1` //MEU NOME
 `
 export const TxtProfession = styled.h1`//FRONT END
   //border:1px solid black;
-
   font-family:'Audiowide', cursive;
   margin-bottom:50px;
   color:#B09DC7;
@@ -118,7 +126,6 @@ export const TxtProfession = styled.h1`//FRONT END
 `
 export const TxtLead = styled.h1` // FALANDO SOBRE MIM
   //border:1px solid yellowgreen;
-  
   display:flex;
   width:100%;
   height:100%;
@@ -140,7 +147,6 @@ export const TxtLead = styled.h1` // FALANDO SOBRE MIM
 `
 export const Section3 = styled.div` //BOTÃO E REDES SOCIAIS
   //border:1px solid pink;
-
   display:flex;
   justify-content:space-between;
   align-items:center;

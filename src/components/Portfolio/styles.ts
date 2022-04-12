@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  //border:1px solid red;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -8,8 +9,8 @@ export const Container = styled.div`
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:1rem;
-  //border:1px solid red;
+  padding:0.5rem; 
+  margin-bottom:2rem;
   
 
   h1{
@@ -19,13 +20,23 @@ export const Container = styled.div`
     font-family:'Audiowide', cursive;
     color:#56537d;
     margin-bottom: 2rem;
+
+    @media screen and (max-width:860px){
+    //flex-direction:column-reverse;
+    font-size:40px;
+    }    
+    @media screen and (max-width:425px){
+    //flex-direction:column-reverse;
+    font-size:28px;
+    }
+}
   }
 `
 export const ContainerSkill = styled.div`
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
-  width: 100%;
+  width: 80%;
   height:100%;
   max-width:100%;
   margin-top:2rem;

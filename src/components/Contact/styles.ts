@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div` // PAI
-  border:1px solid red;
+  //border:1px solid red;
   
   display:flex;
   flex-direction:column;
@@ -10,38 +10,58 @@ export const Container = styled.div` // PAI
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:3rem;
+  padding:0.5rem; 
+  margin-bottom:2rem;
   
   h1{
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
     margin-bottom: 3rem;
+
+    @media screen and (max-width:860px){
+    //flex-direction:column-reverse;
+    font-size:40px;
+    }    
+    @media screen and (max-width:425px){
+    //flex-direction:column-reverse;
+    font-size:28px;
+    }
   }
+  
 `
 export const ContainerForm = styled.div` //FILHO
-  border:1px solid red;
+  //border:1px solid red;
   
   display:flex;
   justify-content:center;
   align-items:center;
-  //flex-wrap:wrap;
   width: 100%;
-  height:100%;
+  height:90%;
   max-width:100%;
+
+  @media screen and (max-width:768px){
+    flex-wrap:wrap;
+  }
   
 `  
 
 export const Form = styled.form` //FORMULÁRIO
-  border:2px solid blue;
+  //border:2px solid blue;
 
   display:flex;
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  width: 100%;
+  width:50rem;
   height:100%;
   max-width:100%;
+
+  @media screen and (max-width:1024px){
+    width:30rem;
+    height:0 auto;
+  }
+
 `
 export const InputContainer = styled.div` // CAIXAS DE TEXTO
   display: flex;
@@ -49,10 +69,9 @@ export const InputContainer = styled.div` // CAIXAS DE TEXTO
   justify-content: space-around;
   align-items: center;
   height: 20%;
-  width: 100%;
-  max-width:100%;
-`;
-
+  width: 90%;
+  max-width:100%;  
+`
 export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
     //border:1px solid orangered;
 
@@ -76,12 +95,17 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
       height:100%;
       max-width:100%;
     }
-  }            
+  }
+  
+  @media screen and (max-width:1024px){
+    width:30rem;
+    height:0 auto;
+  }
 `
 export const Message = styled.textarea`
   box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
-  width: 25rem;
+  width: 40rem;
   height: 14rem;
   padding: 1rem;
   margin:1rem;
@@ -103,5 +127,11 @@ export const Message = styled.textarea`
     font-weight: 100;
     font-size: 1rem;
   }
+
+`
+export const BtnSubmit = styled.button`
+  width: 10rem;
+  
+
 
 `

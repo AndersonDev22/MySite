@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import figEmail from '../../images/Iconemail.jpg'
+import { BtnHireMe } from '../About/styles';
 import { Container, InputContainer, ContainerForm, Form, SectionImage, Message } from './styles';
 
 export function Input({ type, placeholder }) {
@@ -11,7 +12,7 @@ const StyledInput = styled.input`
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
-  width: 25rem;
+  width: 40rem;
   height: 0 auto;
   padding: 1rem;
   margin:1rem;
@@ -33,9 +34,7 @@ const StyledInput = styled.input`
     font-weight: 100;
     font-size: 1rem;
   }
-`;
-
-
+`
 const Contact: React.FC = () => {
 
   return (
@@ -58,6 +57,7 @@ const Contact: React.FC = () => {
             <Input type="email" placeholder="Email" />
             <Input type="tel" placeholder="Fone"/>
             <Message/>
+            <BtnHireMe>Submit</BtnHireMe>
           </InputContainer>
 
         </Form>

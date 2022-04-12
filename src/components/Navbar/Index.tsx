@@ -1,6 +1,6 @@
 import React from 'react';
 import Logotipo from '../../images/Logo.png';
-import { Logo, Nav, NavMenu } from './styles';
+import { Bars, Logo, Nav, NavMenu } from './styles';
 
 const menu = [
   {
@@ -47,6 +47,8 @@ const NavBar: React.FC = () => {
           ))
         }    
       </NavMenu>
+      <Bars/>
+      
 
     </Nav>
  );

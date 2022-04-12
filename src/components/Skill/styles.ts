@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   //border: 1px solid gray;
-  
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -10,18 +9,30 @@ export const Container = styled.div`
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:5rem;
+  padding:0.5rem; 
+  margin-bottom:2rem;
+
+  @media screen and (max-width:860px){
+    //flex-direction:column-reverse;
+    padding:1rem;
+  }
 
   h1{
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
     margin-bottom: 2rem;
-  }
+
+    @media screen and (max-width:860px){
+    font-size:40px;
+    }    
+    @media screen and (max-width:425px){
+    font-size:28px;
+    }
+}
 `
 export const ContainerSkill = styled.div`
   //border:1px solid red;
-  
   display:flex;
   justify-content:center;
   align-items:center;
@@ -29,7 +40,7 @@ export const ContainerSkill = styled.div`
   width: 90%;
   height:0 auto;
   max-width:100%;
-  padding:2rem;
+  padding:0.5rem;
   margin-top:2rem;
   
   
@@ -62,10 +73,20 @@ export const ContainerSkill = styled.div`
     margin:1rem;
     padding:1rem;
     box-shadow: 0px 5px 10px 5px #e9e8ff;
-    //border:1px solid green;
-    //&:hover{
-    //  filter:brightness(0.9);
-    //}
+    
+    @media screen and (max-width:768px){
+    width:160px;
+    font-size:14px;
+    flex-direction:column;
+    margin:1rem;
+  }
+    
+    @media screen and (max-width:425px){
+    width:140px;
+    font-size:14px;
+    flex-direction:column;
+    margin:0.5rem;
+  }
     
   }
   
