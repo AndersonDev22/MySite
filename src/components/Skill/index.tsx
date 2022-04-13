@@ -41,7 +41,7 @@ const Skill: React.FC = () => {
   return (
 
     <Container>
-      <h1>&gt;&gt;&gt;&nbsp; My SKills &nbsp;&lt;&lt;&lt;</h1>
+      <h1>&gt;&gt;&gt;&nbsp; My Skills &nbsp;&lt;&lt;&lt;</h1>
 
       <ContainerSkill>
         {
