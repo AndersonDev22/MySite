@@ -22,11 +22,9 @@ export const Container = styled.div`
     margin-bottom: 2rem;
 
     @media screen and (max-width:860px){
-    //flex-direction:column-reverse;
     font-size:40px;
     }    
     @media screen and (max-width:425px){
-    //flex-direction:column-reverse;
     font-size:28px;
     }
 }
@@ -40,13 +38,11 @@ export const ContainerSkill = styled.div`
   height:100%;
   max-width:100%;
   
-  
-  
-
   img{
       display:flex;
       width:40rem;
       height:100%;
+      margin:1rem;
       max-width:100%;
       border:1px solid #b09dc7;
       border-radius:10px;
@@ -54,10 +50,11 @@ export const ContainerSkill = styled.div`
      }
   
   div{
+    //border:5px solid black;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:0.5rem 0;
+    margin:1rem;
     width:30rem;
     height:0 auto;
     max-width:100%;
@@ -65,14 +62,12 @@ export const ContainerSkill = styled.div`
     &:hover{
       transition:0.3s;
       filter:brightness(0.9);
-      //zoom:1.07;
-    }
-    
-    //border:5px solid goldenrod;
-    //&:hover{
-    //  filter:brightness(0.9);
-    //}
-    
+    }  
+
+    @media screen and (max-width:1024px){
+    width:24rem;
+    } 
   }
-  
+
+    
 `

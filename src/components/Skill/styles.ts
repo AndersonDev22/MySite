@@ -37,13 +37,12 @@ export const ContainerSkill = styled.div`
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  width: 100%;
+  width: 50%;
   height:0 auto;
   max-width:100%;
   margin-top:2rem;
-  flex-shrink:2;
+  //flex-shrink:3;
   
-
   img{
       display:flex; 
       width:250px;
@@ -51,6 +50,13 @@ export const ContainerSkill = styled.div`
       max-width:100%;
       margin-bottom:0.5rem;
       //border:1px solid blue;
+
+      @media screen and (max-width:1024px){
+      width:130px;
+      flex-shrink:3;
+      
+      //height:0 auto;
+  }
 
      }
   
@@ -77,13 +83,19 @@ export const ContainerSkill = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    margin:1rem;
+    margin:2rem;
     padding:1rem;
     box-shadow: 0px 5px 10px 5px #e9e8ff;
+
+    @media screen and (max-width:1024px){
+      width:200px;
+      height:0 auto;
+      margin-right:2rem;
+  }
     
     @media screen and (max-width:768px){
-      width:120px;
-      height:120px;
+      /* width:120px;
+      height:120px; */
   }
     
     @media screen and (max-width:425px){
