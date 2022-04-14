@@ -2,14 +2,16 @@ import React from 'react'
 import figEmail from '../../images/Iconemail.jpg'
 import { BtnHireMe } from '../About/styles';
 import PhoneInput from '../InputPhone';
-import { Container, StyledInput, InputContainer, ContainerForm, Form, SectionImage, Message } from './styles';
+import { StyledInput, InputContainer,Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
 const Contact: React.FC = () => {
 
   return (
     <Container>
 
-      <h1> &gt;&gt;&gt;&nbsp; Contact me &nbsp;&lt;&lt;&lt;</h1>
+      <h1> 
+        &gt;&gt;&gt;&nbsp; Contact me &nbsp;&lt;&lt;&lt;
+      </h1>
 
       <ContainerForm>
         

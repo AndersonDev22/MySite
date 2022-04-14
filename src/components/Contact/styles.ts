@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Container = styled.div` // PAI
+export const Container = styled.div`
   //border:1px solid red;
-  
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -13,26 +12,25 @@ export const Container = styled.div` // PAI
   padding:0.5rem; 
   margin-bottom:2rem;
   
+
   h1{
+    max-width:100%;
+    margin-top:1rem;
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
     margin-bottom: 2rem;
 
     @media screen and (max-width:860px){
-    //flex-direction:column-reverse;
     font-size:40px;
     }    
     @media screen and (max-width:425px){
-    margin-bottom:0.2rem;
-    font-size:26px;
+    font-size:28px;
     }
-  }
-  
-`
+}`
+
 export const ContainerForm = styled.div` //FILHO
   //border:1px solid red;
-  
   display:flex;
   justify-content:center;
   align-items:center;
@@ -126,10 +124,6 @@ export const Message = styled.textarea`
     font-weight: 100;
     font-size: 1rem;
   }
-
-`
-export const BtnSubmit = styled.button`
-  width: 10rem;
 `
 export const StyledInput = styled.input`
   background: rgba(255, 255, 255, 0.15);

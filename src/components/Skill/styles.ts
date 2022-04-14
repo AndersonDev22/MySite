@@ -8,12 +8,11 @@ export const Container = styled.div`
   align-items:center; 
   background: #ffffff;
   width: 100%;
-  height:100%;
-  padding:0rem 2rem; 
+  //height:0 auto;
+  padding:2rem; 
   margin-bottom:2rem;
 
   @media screen and (max-width:860px){
-    //flex-direction:column-reverse;
     padding:1rem;
   }
 
@@ -24,10 +23,10 @@ export const Container = styled.div`
     margin-bottom: 2rem;
 
     @media screen and (max-width:860px){
-    font-size:40px;
+    font-size:35px;
     }    
     @media screen and (max-width:425px){
-    font-size:28px;
+    font-size:24px;
     }
 }
 `
@@ -41,6 +40,7 @@ export const ContainerSkill = styled.div`
   height:0 auto;
   max-width:100%;
   margin-top:2rem;
+  padding:1.5rem;
   //flex-shrink:3;
   
   img{
@@ -54,9 +54,11 @@ export const ContainerSkill = styled.div`
       @media screen and (max-width:1024px){
       width:130px;
       flex-shrink:3;
-      
-      //height:0 auto;
-  }
+      }
+      @media screen and (max-width:425px){
+      width:130px;
+      flex-shrink:3;
+      }
 
      }
   
@@ -77,7 +79,7 @@ export const ContainerSkill = styled.div`
   
   div{
     //border: 2px solid green;  
-    width:fit-content;
+    width:15rem;
     border-radius:30px;
     display:flex;
     justify-content:center;
@@ -99,6 +101,7 @@ export const ContainerSkill = styled.div`
   }
     
     @media screen and (max-width:425px){
+      width:160px;
       border-radius:20px;
       margin:0.5rem;
       padding:1.5rem;
