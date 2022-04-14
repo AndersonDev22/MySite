@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
             <StyledInput type="tel" placeholder="Fone"/>
             <Message/>
             <BtnHireMe>Submit</BtnHireMe>
-            <PhoneInput/>
+            {/* <PhoneInput/> */}
           </InputContainer>
 
         </Form>

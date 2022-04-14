@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  //border: 1px solid gray;
+export const Container = styled.div` //PAI
+  //border: 1px solid red;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -9,14 +9,11 @@ export const Container = styled.div`
   background: #ffffff;
   width: 100%;
   //height:0 auto;
-  padding:2rem; 
+  //padding:1rem; 
   margin-bottom:2rem;
 
-  @media screen and (max-width:860px){
-    padding:1rem;
-  }
-
   h1{
+    //border:1px solid gray;
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
@@ -28,19 +25,18 @@ export const Container = styled.div`
     @media screen and (max-width:425px){
     font-size:24px;
     }
-}
+  }
 `
-export const ContainerSkill = styled.div`
-  //border:1px solid red;
+export const ContainerSkill = styled.div` //FILHO
+  //border:1px solid gray;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  width: 50%;
+  width: 100%;
   height:0 auto;
   max-width:100%;
-  margin-top:2rem;
-  padding:1.5rem;
+  //padding:1.5rem;
   //flex-shrink:3;
   
   img{

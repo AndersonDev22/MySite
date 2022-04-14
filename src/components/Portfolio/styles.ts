@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.div` //PAI
   //border:1px solid red;
   display:flex;
   flex-direction:column;
@@ -9,11 +9,11 @@ export const Container = styled.div`
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:0.5rem; 
   margin-bottom:2rem;
   
 
   h1{
+    //border:1px solid red;
     max-width:100%;
     margin-top:1rem;
     font-size:50px;
@@ -34,7 +34,7 @@ export const ContainerSkill = styled.div`
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
-  width: 80%;
+  width: 100%;
   height:100%;
   max-width:100%;
   
@@ -50,12 +50,12 @@ export const ContainerSkill = styled.div`
      }
   
   div{
-    //border:5px solid black;
+    //border:1px solid black;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:1rem;
-    width:30rem;
+    margin:0.5rem;
+    width:35rem;
     height:0 auto;
     max-width:100%;
 
@@ -66,8 +66,6 @@ export const ContainerSkill = styled.div`
 
     @media screen and (max-width:1024px){
     width:24rem;
-    } 
-  }
-
-    
+    }
+  }    
 `
