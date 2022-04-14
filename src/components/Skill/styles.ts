@@ -9,7 +9,7 @@ export const Container = styled.div`
   background: #ffffff;
   width: 100%;
   height:100%;
-  padding:0.5rem; 
+  padding:0rem 2rem; 
   margin-bottom:2rem;
 
   @media screen and (max-width:860px){
@@ -32,15 +32,14 @@ export const Container = styled.div`
 }
 `
 export const ContainerSkill = styled.div`
-  border:1px solid red;
+  //border:1px solid red;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  width: 90%;
+  width: 100%;
   height:0 auto;
   max-width:100%;
-  //padding:0.5rem 0;
   margin-top:2rem;
   flex-shrink:2;
   
@@ -49,9 +48,10 @@ export const ContainerSkill = styled.div`
       display:flex; 
       width:250px;
       height:100%;
-      max-width:50%;
-      margin:1rem;
+      max-width:100%;
+      margin-bottom:0.5rem;
       //border:1px solid blue;
+
      }
   
   h3{
@@ -63,16 +63,21 @@ export const ContainerSkill = styled.div`
     max-width:80%;
     font-family: 'Roboto', sans-serif;
     //border:1px solid green;
+
+    @media screen and (max-width:425px){
+      font-size:16px;
+  }
   }
   
   div{
+    //border: 2px solid green;  
     width:fit-content;
     border-radius:30px;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    margin:1rem 0;
+    margin:1rem;
     padding:1rem;
     box-shadow: 0px 5px 10px 5px #e9e8ff;
     
@@ -82,8 +87,9 @@ export const ContainerSkill = styled.div`
   }
     
     @media screen and (max-width:425px){
-      //border: 2px solid green;  
-      margin:0.5rem 0;
+      border-radius:20px;
+      margin:0.5rem;
+      padding:1.5rem;
   }
     
   }

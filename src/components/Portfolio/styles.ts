@@ -30,19 +30,16 @@ export const Container = styled.div`
     font-size:28px;
     }
 }
-  }
 `
 export const ContainerSkill = styled.div`
+  //border:1px solid black; 
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
   width: 80%;
   height:100%;
   max-width:100%;
-  margin-top:2rem;
-  padding:2rem;
-  margin-top:2rem;
-  //border:1px solid black;
+  
   
   
 
@@ -60,7 +57,7 @@ export const ContainerSkill = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:1rem;
+    margin:0.5rem 0;
     width:30rem;
     height:0 auto;
     max-width:100%;

@@ -17,15 +17,15 @@ export const Container = styled.div` // PAI
     font-size:50px;
     font-family:'Audiowide', cursive;
     color:#56537d;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     @media screen and (max-width:860px){
     //flex-direction:column-reverse;
     font-size:40px;
     }    
     @media screen and (max-width:425px){
-    //flex-direction:column-reverse;
-    font-size:28px;
+    margin-bottom:0.2rem;
+    font-size:26px;
     }
   }
   
@@ -74,7 +74,6 @@ export const InputContainer = styled.div` // CAIXAS DE TEXTO
 `
 export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
     //border:1px solid orangered;
-
     display:flex;
     justify-content:center;
     align-items:center;
