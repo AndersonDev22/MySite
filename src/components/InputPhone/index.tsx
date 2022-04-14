@@ -36,9 +36,6 @@ const PhoneInput = ({...props }) => {
           fontSize:'1rem',
           fontWeight:'bold',
           maxWidth:'100%',
-          
-          
-
         }}
       >
         {(inputProps: JSX.IntrinsicAttributes & 

@@ -1,8 +1,7 @@
 import React from 'react'
-import figEmail from '../../images/Iconemail.jpg'
-import { BtnHireMe } from '../About/styles';
+import figEmail from '../../images/IconEmail.jpg'
 import PhoneInput from '../InputPhone';
-import { StyledInput, InputContainer,Container, ContainerForm, Form, SectionImage, Message } from './styles';
+import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
 const Contact: React.FC = () => {
 
@@ -21,20 +20,16 @@ const Contact: React.FC = () => {
          </figure>
         </SectionImage>
 
-
-        <Form>
-          <InputContainer>
-            <StyledInput type="text" placeholder="Nome" />
-            <StyledInput type="email" placeholder="Email" />
-            <StyledInput type="tel" placeholder="Fone"/>
-            <Message/>
-            <BtnHireMe>Submit</BtnHireMe>
-            {/* <PhoneInput/> */}
-          </InputContainer>
-
+        <Form>         
+          <StyledInput type="text" placeholder="Your Name*" />
+          <StyledInput type="email" placeholder="Your Email*" />
+          <StyledInput type="tel" placeholder="Your Fone*"/>
+          <Message placeholder="Message"/>
+          <BtnSubmit>Submit</BtnSubmit>
         </Form>
 
       </ContainerForm>
+
     </Container>
 
   );
