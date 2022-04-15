@@ -29,7 +29,7 @@ export const Container = styled.div` //PAI
     }
 }
 `
-export const ContainerSkill = styled.div`
+export const ContainerSkill = styled.div` // FILHO
   //border:1px solid black; 
   display:flex;
   justify-content:center;
@@ -55,7 +55,7 @@ export const ContainerSkill = styled.div`
     justify-content:center;
     align-items:center;
     margin:0.5rem;
-    width:35rem;
+    width:40rem;
     height:0 auto;
     max-width:100%;
 
@@ -65,7 +65,10 @@ export const ContainerSkill = styled.div`
     }  
 
     @media screen and (max-width:1024px){
-    width:24rem;
+      width:24rem;
+    }
+    @media screen and (max-width:1024px){
+      width:20rem;
     }
   }    
 `

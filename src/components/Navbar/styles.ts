@@ -14,10 +14,9 @@ export const Nav = styled.nav `
   
   padding: 2rem 2rem;
   z-index:20;
-  //flex-wrap:wrap;
   max-width:100%;
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 500px) {
     padding: 1rem 1rem;
   }
 `
@@ -26,7 +25,7 @@ export const Nav = styled.nav `
   display: none;
   color: #0B1840;
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 500px) {
     display:block;
     position:absolute;
     align-items:10px;
@@ -75,33 +74,53 @@ export const Logo = styled.div`
   }    
 `
 
-export const NavMenu = styled.div`
-  //border:1px solid blue;
+export const NavMenu = styled.div` //MENU
+  //border:1px solid red;
+  background:#ffffff;
+  margin-right:1px;
+  width:25rem;
+  height:0 auto;
   display:flex;
   justify-content:center;
+  //align-items:flex-start;
+  position:relative;
       
- a{
-    font-family: 'Roboto', sans-serif;
-    font-size:18px;
-    color:#141049;
-    text-decoration:none;
-    border-bottom:2px solid transparent;
-    
-    & + a {
-      margin-left:1.5rem;
-    }
-    &:hover{
-      border-bottom:2px solid #141049;
-      transition:0.3s;
-    }
+        a{ //NOMES
+            font-family:'Roboto', sans-serif;
+            font-size:18px;
+            font-weight:bolder;
+            color:#141049;
+            text-decoration:none;
+            border-bottom:2px solid transparent;
 
+            @media screen and (max-width: 500px) {
+              display:flex;
+              width:6rem;
+              padding:3px;
+              margin:3px;
+              //border:1px solid blue;
+          }
+            
+            & + a {
+              margin-left:1.5rem;
+
+              @media screen and (max-width: 500px) {
+                margin-left:3px;
+              }
+            }
+            &:hover{
+              border-bottom:2px solid #141049;
+              transition:0.3s;
+            }
+
+          }
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    margin-top:180px;
+    margin-right:15px;
+    //width:35rem;
+    left:-20px;
   }
 
-  @media screen and (max-width: 768px) {
-    width:25rem;
-  }
-
-  @media screen and (max-width: 425px) {
-   display:none;
-  }
 `

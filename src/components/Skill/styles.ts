@@ -85,24 +85,29 @@ export const ContainerSkill = styled.div` //FILHO
     padding:1rem;
     box-shadow: 0px 5px 10px 5px #e9e8ff;
 
+    @media screen and (max-width:1440px){
+      width:300px;
+      height:0 auto;
+      margin-right:2rem;
+  }
+
     @media screen and (max-width:1024px){
       width:200px;
       height:0 auto;
       margin-right:2rem;
   }
-    
+
     @media screen and (max-width:768px){
-      /* width:120px;
-      height:120px; */
+      width:200px;
+      height:0 auto;
+      margin-right:1rem;
   }
-    
+     
     @media screen and (max-width:425px){
-      width:160px;
+      width:140px;
       border-radius:20px;
       margin:0.5rem;
       padding:1.5rem;
   }
-    
-  }
-  
+ }  
 `

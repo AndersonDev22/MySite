@@ -46,10 +46,10 @@ export const ContainerForm = styled.div` //FILHO
 export const Form = styled.form` //FORMULÁRIO
   //border:1px solid blue;
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content:flex-end;
+  //align-items:flex-end;
   flex-wrap:wrap;
-  width:50rem;
+  width:40rem;
   height:100%;
   max-width:100%;
 
@@ -63,9 +63,10 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
     display:flex;
     justify-content:center;
     align-items:center;
-    width:100%;
+    width:40rem;
     height:100%;
     max-width:100%;
+    margin:1rem;
      
   figure{
       //border:1px solid black;
@@ -148,6 +149,7 @@ export const BtnSubmit = styled.button` //BOTÃO SUBMIT
   border:none;
   border-radius:8px;
   width:11rem;
+  margin:0.5rem;
   cursor:pointer;
 
   @media screen and (max-width:500px){
