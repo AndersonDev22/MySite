@@ -1,33 +1,11 @@
 import React from 'react';
 import Logotipo from '../../images/Logo.png';
-import { Bars, Logo, Nav, NavMenu } from './styles';
-
-const menu = [
-  {
-    id:'about',
-    Text:'About',
-    link:'#'
-  },
-  {
-    id:'skill',
-    Text:'Skill',
-    link:'#'
-  },
-  {
-    id:'portfolio',
-    Text:'Portfolio',
-    link:'#'
-  },
-  {
-    id:'contact',
-    Text:'Contact',
-    link:'#'
-  },
-  
-  
-];
+import Burger from '../Burger';
+import Menu from '../Menu/index';
+import { Logo, Nav, } from './styles';
 
 const NavBar: React.FC = () => {
+  const [open, setOpen] = React.useState(false)
 
   return(
     <Nav>
@@ -38,17 +16,8 @@ const NavBar: React.FC = () => {
        </figure>
       </Logo>
 
-      <NavMenu>
-        {
-          menu.map(texts => (
-            <a key={texts.id} href={texts.link}>
-              {texts.Text}
-            </a>
-          ))
-        }    
-      </NavMenu>
-      <Bars/>
-      
+      <Menu open={open}/>
+      <Burger open={open} setOpen={setOpen}/>
 
     </Nav>
  );

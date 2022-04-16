@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {FaBars} from 'react-icons/fa';
+//import {FaBars} from 'react-icons/fa';
+
 
 export const Nav = styled.nav `
   //border:1px solid deeppink;
@@ -20,21 +21,26 @@ export const Nav = styled.nav `
     padding: 1rem 1rem;
   }
 `
- export const Bars = styled(FaBars)`
-  //border:1px solid black;
-  display: none;
-  color: #0B1840;
+//  export const Bars = styled(FaBars)`
+//   //border:1px solid black;
+//   display: none;
+//   color: #0B1840;
 
-    @media screen and (max-width: 500px) {
-    display:block;
-    position:absolute;
-    align-items:10px;
-    right:10px;
-    transform: translate(-100, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    }
-`
+//     @media screen and (max-width: 500px) {
+//     display:block;
+//     position:absolute;
+//     align-items:10px;
+//     right:10px;
+//     transform: translate(-100, 75%);
+//     font-size: 1.8rem;
+//     cursor: pointer;
+//     }
+
+//     &:before{
+//       transform: rotate(225deg)
+
+//     }
+// `
 export const Logo = styled.div`
   //border:1px solid blue;
 
@@ -73,7 +79,6 @@ export const Logo = styled.div`
     }
   }    
 `
-
 export const NavMenu = styled.div` //MENU
   //border:1px solid red;
   background:#ffffff;
@@ -115,7 +120,8 @@ export const NavMenu = styled.div` //MENU
 
           }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
+    display:none;
     flex-direction: column;
     margin-top:180px;
     margin-right:15px;
