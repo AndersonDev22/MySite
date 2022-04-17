@@ -1,5 +1,5 @@
 import React from 'react'
-import figEmail from '../../images/iconemail.jpg';
+import ilustracao from '../../images/Iustracaoemail.png';
 import PhoneInput from '../InputPhone';
 import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
         
         <SectionImage>
          <figure>
-            <img src={figEmail} alt="" />
+            <img src={ilustracao} alt="" />
          </figure>
         </SectionImage>
 
