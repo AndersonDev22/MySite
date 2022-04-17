@@ -2,23 +2,27 @@ import styled from "styled-components";
 import InputMask from 'react-input-mask';
 
 export const InputMaskCustom = styled(InputMask)`
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0px 5px 10px 5px #e9e8ff;
-  border-radius: 10px;
-  width: 40rem;
-  height: 0 auto;
-  padding: 1rem;
-  margin:1rem;
-  border: none;
-  outline: none;
-  color: #3c354e;
-  font-size: 1rem;
-  font-weight: bold;
-  max-width:100%;
- 
-  &:focus {
-    display: inline-block;
-    box-shadow: 0 0 0 0.2rem #b9abe0;
-    backdrop-filter: blur(12rem);
-    }
-  `
+box-shadow: 0px 5px 10px 5px #e9e8ff;
+border-radius: 10px;
+width: 100%;
+height: 0 auto;
+padding: 0.7rem;
+margin:0.5rem;
+border: 2px solid transparent;
+outline: none;
+color:#56537d;
+font-size: 16px;
+font-weight: 150;
+max-width:100%;
+
+&:focus {
+  display: inline-block;
+  border: 2px solid #b9abe0;
+  backdrop-filter: blur(12rem);
+}
+
+&::placeholder {
+  color: #b9abe099;
+  font-weight: 100;
+}
+`

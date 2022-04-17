@@ -23,10 +23,10 @@ const Contact: React.FC = () => {
         <Form>         
           <StyledInput type="text" placeholder="Your Name*" />
           <StyledInput type="email" placeholder="Your Email*" />
-          <StyledInput type="tel" placeholder="Your Fone*"/>
+          <PhoneInput/>
           <Message placeholder="Message"/>
           <BtnSubmit>Submit</BtnSubmit>
-          <PhoneInput/>
+          
         </Form>
 
       </ContainerForm>
