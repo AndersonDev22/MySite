@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
       </Logo>
 
       <Burger open={open} setOpen={setOpen}/>
-      <Menu open={open}/>
+      <Menu open={open} setOpen={setOpen}/>
     </Nav>
  );
 }
