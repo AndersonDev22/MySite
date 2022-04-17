@@ -91,6 +91,7 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
   }
 `
 export const Message = styled.textarea` // CAIXA DA MENSSAGEM
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
   width: 100%;
@@ -116,6 +117,7 @@ export const Message = styled.textarea` // CAIXA DA MENSSAGEM
   }
 `
 export const StyledInput = styled.input` // CAIXAS DE TEXTO
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
   width: 100%;

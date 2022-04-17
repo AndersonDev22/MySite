@@ -1,5 +1,5 @@
 import React from 'react'
-import figEmail from '../../images/iconEmail.jpg';
+import figEmail from '../../images/iconemail.jpg';
 import PhoneInput from '../InputPhone';
 import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
