@@ -6,7 +6,7 @@ import { BtnHireMe, ContainerAbout, Container, Section3, SectionAboutMe, Section
 const About: React.FC = () => {
 
   return(
-    <Container>
+    <Container id="home">
       <ContainerAbout> 
 
         <SectionAboutMe>

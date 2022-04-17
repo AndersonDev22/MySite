@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Menu from '../Menu';
-import { StyledBurger, ContainerDiv } from './styles';
+import { StyledBurger } from './styles';
 
 interface Props {
   open: boolean
@@ -10,18 +10,13 @@ interface Props {
 const Burger: React.FC<Props> = ({ setOpen, open }) => {
   
   return (
-    <ContainerDiv>
-
-        <StyledBurger open={open} onClick={() => setOpen(!open)}>
-          <div />
-          <div />
-          <div />
-        </StyledBurger>
-
-        <Menu open={open}/>
-
-    </ContainerDiv>
-  )
+    
+    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <div />
+      <div />
+      <div />
+    </StyledBurger>
+  )   
 }
 
 export default Burger;

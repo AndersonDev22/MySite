@@ -4,12 +4,6 @@ interface Props {
   open: boolean
 }
 
-export const ContainerDiv = styled.div`
-  width:100%;
-  height: auto;
-
-`
-
 export const StyledBurger = styled.button<Props>`
   background:#fff;
   display:none;
@@ -36,8 +30,7 @@ export const StyledBurger = styled.button<Props>`
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.5s linear;
-    //transition: all 0.8s cubic-bezier(0,0,0,1);
-
+   
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }

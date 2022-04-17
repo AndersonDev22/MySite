@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import InputMask from 'react-input-mask';
 
-export const InputMask1 = styled.div`
+export const InputMaskCustom = styled(InputMask)`
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
@@ -19,6 +20,5 @@ export const InputMask1 = styled.div`
     display: inline-block;
     box-shadow: 0 0 0 0.2rem #b9abe0;
     backdrop-filter: blur(12rem);
-    //border-radius: 2rem;
-  }
+    }
   `

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import InputMask from 'react-input-mask';
+import { InputMaskCustom } from './styles';
 
 const PhoneInput = ({...props }) => {
   
@@ -8,7 +8,7 @@ const PhoneInput = ({...props }) => {
 
   return (
     
-      <InputMask
+      <InputMaskCustom placeholder='Your Phone*'
         {...props}
         mask={mask}
         onBlur={e => {
@@ -21,28 +21,12 @@ const PhoneInput = ({...props }) => {
             setMask("(99) 99999-9999");
           }
         }}
-
-        style={{
-          background:'rgba(255, 255, 255, 0.15)',
-          boxShadow: '0px 5px 10px 5px #e9e8ff',
-          borderRadius: '10px',
-          width:'40rem',
-          height:'0 auto',
-          padding:'1rem',
-          margin:'1rem',
-          border:'none',
-          outline:'none',
-          color:'#3c354e',
-          fontSize:'1rem',
-          fontWeight:'bold',
-          maxWidth:'100%',
-        }}
       >
         {(inputProps: JSX.IntrinsicAttributes & 
           React.ClassAttributes<HTMLInputElement> & 
           React.InputHTMLAttributes<HTMLInputElement>) => 
           <input {...inputProps} type="tel" />}
-      </InputMask>
+      </InputMaskCustom>
     
   );
 };

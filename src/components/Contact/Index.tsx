@@ -6,7 +6,7 @@ import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, M
 const Contact: React.FC = () => {
 
   return (
-    <Container>
+    <Container id="contact">
 
       <h1> 
         &gt;&gt;&gt;&nbsp; Contact me &nbsp;&lt;&lt;&lt;
@@ -26,6 +26,7 @@ const Contact: React.FC = () => {
           <StyledInput type="tel" placeholder="Your Fone*"/>
           <Message placeholder="Message"/>
           <BtnSubmit>Submit</BtnSubmit>
+          <PhoneInput/>
         </Form>
 
       </ContainerForm>

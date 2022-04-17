@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Logotipo from '../../images/Logo.png';
 import Burger from '../Burger';
 import Menu from '../Menu/index';
@@ -16,9 +16,8 @@ const NavBar: React.FC = () => {
        </figure>
       </Logo>
 
-      <Menu open={open}/>
       <Burger open={open} setOpen={setOpen}/>
-
+      <Menu open={open}/>
     </Nav>
  );
 }
