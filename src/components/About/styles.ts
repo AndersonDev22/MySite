@@ -160,15 +160,23 @@ export const Section3 = styled.div` //BOTÃO E REDES SOCIAIS
   }
 `
 export const BtnHireMe = styled.button` //BOTÃO HIRE ME
-  background:#34A1CD;
-  color: #fff;
-  font-size: 16px;
-  padding:1rem;
-  font-weight:700;
-  border:none;
-  border-radius:8px;
-  width:11rem;
-  cursor:pointer;
+  border: none;
+  background:transparent;
+  display:flex;
+ 
+  a{
+    background:#34A1CD;    
+    font-size: 16px;
+    padding:1rem;
+    font-weight:700;
+    border:none;
+    border-radius:8px;
+    width:15rem;
+    height:0 auto;
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+  }
 
   @media screen and (max-width:500px){
    font-size:16px;

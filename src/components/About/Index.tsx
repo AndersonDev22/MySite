@@ -33,7 +33,7 @@ const About: React.FC = () => {
             <Section3>
 
               <BtnHireMe>
-                Hire me
+                <a href="/#contact">Hire me</a> 
               </BtnHireMe>
             
               <Networks/>
