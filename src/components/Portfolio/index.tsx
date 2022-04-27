@@ -1,5 +1,5 @@
 import React from "react";
-import projeto1 from '../../images/projeto1.jpg';
+import projeto1 from '../../images/pokemon.png';
 import projeto2 from '../../images/projeto2.jpg';
 import projeto3 from '../../images/projeto3.jpg';
 import projeto4 from '../../images/projeto4.png';
