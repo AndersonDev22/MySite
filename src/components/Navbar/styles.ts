@@ -15,7 +15,7 @@ export const Nav = styled.nav `
   
   padding: 2rem 2rem;
   z-index:20;
-  max-width:100%;
+  max-width:1440px;
   
   @media screen and (max-width: 500px) {
     padding: 1rem 1rem;

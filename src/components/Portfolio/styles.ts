@@ -30,7 +30,7 @@ export const Container = styled.div` //PAI
 }
 `
 export const ContainerSkill = styled.div` // FILHO
-  //border:1px solid black; 
+  border:1px solid black; 
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
@@ -41,7 +41,7 @@ export const ContainerSkill = styled.div` // FILHO
   img{
       display:flex;
       width:40rem;
-      height:100%;
+      height:0 auto;
       margin:1rem;
       max-width:100%;
       border:1px solid #b09dc7;
@@ -70,5 +70,6 @@ export const ContainerSkill = styled.div` // FILHO
     @media screen and (max-width:1024px){
       width:20rem;
     }
-  }    
+  }
+      
 `
