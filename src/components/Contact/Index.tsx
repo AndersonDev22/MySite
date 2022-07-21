@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 //import emailjs from "emailjs-com";
 import emailjs from '@emailjs/browser';
-import ilustracao from '../../images/Iustracaoemail.png';
-import PhoneInput from '../InputPhone';
+import ilustracao from '../../images/Iustracaoemail.png'
+import PhoneInput from '../InputPhone'
 import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
 const Contact: React.FC = () => {

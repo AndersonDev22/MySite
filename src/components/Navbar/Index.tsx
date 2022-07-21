@@ -14,7 +14,6 @@ const NavBar: React.FC = () => {
           <img src={Logotipo} alt="Logo" />
         </figure>
       </Logo>
-
       <Burger open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
     </Nav>

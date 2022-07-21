@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Menu from '../Menu';
-import { StyledBurger } from './styles';
+import { StyledBurger } from './styles'
 
 interface Props {
   open: boolean
