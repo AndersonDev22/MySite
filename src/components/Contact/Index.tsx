@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
     <Container id="contact">
 
       <h1> 
-        &gt;&gt;&gt;&nbsp; Contact me &nbsp;&lt;&lt;&lt;
+        &gt;&gt;&gt;&nbsp; Contact-me &nbsp;&lt;&lt;&lt;
       </h1>
 
       <ContainerForm>
