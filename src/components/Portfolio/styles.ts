@@ -9,7 +9,7 @@ export const Container = styled.div` //PAI
   background: #ffffff;
   width: 100%;
   height:100%;
-  margin-bottom:2rem;
+  margin-bottom:8rem;
   
 
   h1{

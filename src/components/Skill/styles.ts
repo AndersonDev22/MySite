@@ -10,7 +10,7 @@ export const Container = styled.div` //PAI
   width: 100%;
   //height:0 auto;
   //padding:1rem; 
-  margin-bottom:2rem;
+  margin-bottom:8rem;
   max-width: 1440px;
 
   h1{
