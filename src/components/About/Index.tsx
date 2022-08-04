@@ -19,27 +19,18 @@ const About: React.FC = () => {
     <Container id="home">
       <ContainerAbout>
         <SectionAboutMe>
-          <TxtHello>Hello.</TxtHello>
-
           <TxtName>Luiz Anderson</TxtName>
-
           <TxtProfession>Front-end Developer</TxtProfession>
-
           <TxtLead>
-            I'm Junior Front-End Developer and from Brazil. I create efficent
-            and innovate experiences that balance user and business goals.
-            Welcome to my portfolio!
+          Me chamo Luiz Anderson, sou um profissional versátil e apaixonado pela área de tecnologia, sempre disposto a aprender algo novo e superar grandes desafios. Busco constantemente capacitação para melhor exercer minhas habilidades. 
           </TxtLead>
-
           <Section3>
             <BtnHireMe>
-              <a href="/#contact">Hire me</a>
+              <a href="/#contact">Contate-me</a>
             </BtnHireMe>
-
             <Networks />
           </Section3>
         </SectionAboutMe>
-
         <SectionAvatar>
           <figure>
             <img src={avatar} alt="" />

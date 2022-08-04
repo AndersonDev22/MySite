@@ -3,8 +3,14 @@ import html from '../../images/html.svg';
 import css from '../../images/css.svg';
 import react from '../../images/react.svg';
 import javaJs from '../../images/js.svg';
-import figma from '../../images/figma.svg';
-import vscode from '../../images/vscode.svg';
+import node from '../../images/node.svg';
+import typescript from '../../images/typescript.svg';
+import styled from '../../images/styled.svg';
+import tailwind from '../../images/tailwind.svg';
+import git from '../../images/git.svg';
+import github from '../../images/github.svg';
+import graphql from '../../images/graphql.svg';
+import storybook from '../../images/storybook.svg';
 import { Container, ContainerSkill} from "./styles";
 
 const Skills = [
@@ -25,11 +31,35 @@ const Skills = [
     Text: <h3>JAVASCRIPT</h3>,
   },
   {
-    Image: <img src={vscode} alt="image vccode" />,
+    Image: <img src={typescript} alt="image vccode" />,
     Text: <h3>VSCODE</h3>,
   },
   {
-    Image: <img src={figma} alt="image figma" />,
+    Image: <img src={node} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={styled} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={git} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={github} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={tailwind} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={graphql} alt="image figma" />,
+    Text: <h3>FIGMA</h3>,
+  },
+  {
+    Image: <img src={storybook} alt="image figma" />,
     Text: <h3>FIGMA</h3>,
   },
 
@@ -48,7 +78,7 @@ const Skill: React.FC = () => {
           Skills.map(skill => (
             <div>
               {skill.Image}
-              {skill.Text}
+              {/* {skill.Text} */}
             </div>
           ))
         }

@@ -45,10 +45,8 @@ export const ContainerForm = styled.div` //FILHO
   }  
 `  
 export const Form = styled.form` //FORMULÁRIO
-  //border:1px solid blue;
   display:flex;
   justify-content:flex-end;
-  //align-items:flex-end;
   flex-wrap:wrap;
   width:40rem;
   height:100%;
@@ -60,7 +58,6 @@ export const Form = styled.form` //FORMULÁRIO
   }
 `
 export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
-    //border:1px solid orangered;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -70,7 +67,6 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
     margin:1rem;
      
   figure{
-      //border:1px solid black;
       display:flex;
       width:40rem;
       height:100%;
@@ -78,7 +74,6 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
       margin: 1rem 0;
     
     img{
-      //border:1px solid blue;
       display:flex;
       width:40rem;
       height:100%;
@@ -93,13 +88,12 @@ export const SectionImage = styled.div` //ILUSTRAÇÃO EMAIL
 `
 export const Message = styled.textarea` // CAIXA DA MENSSAGEM
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
   width: 100%;
   height: 15rem;
   padding: 0.7rem;
   margin:0.5rem;
-  border: 2px solid transparent;
+  border: 2px solid #b9abe0;
   outline: none;
   color:#56537d;
   font-size: 16px;
@@ -119,13 +113,12 @@ export const Message = styled.textarea` // CAIXA DA MENSSAGEM
 `
 export const StyledInput = styled.input` // CAIXAS DE TEXTO
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  box-shadow: 0px 5px 10px 5px #e9e8ff;
   border-radius: 10px;
   width: 100%;
   height: 0 auto;
   padding: 0.7rem;
   margin:0.5rem;
-  border: 2px solid transparent;
+  border: 2px solid #b9abe0;
   outline: none;
   color:#56537d;
   font-size: 16px;

@@ -11,18 +11,18 @@ const socialMedias = [
   {
     id:'instagram',
     icon: <FaInstagram />,
-    link:'https://www.linkedin.com/in/luiz-anderson-11b097220/'
+    link:'https://www.instagram.com/anderson.dev22/'
   },
   {
     id:'github',
     icon: <FaGithub />,
     link:'https://github.com/AndersonDev22/'
   },
-  {
-    id:'telegram',
-    icon: <FaTelegram />,
-    link:'https://www.linkedin.com/in/luiz-anderson-11b097220/'
-  },
+  // {
+  //   id:'telegram',
+  //   icon: <FaTelegram />,
+  //   link:'https://www.linkedin.com/in/luiz-anderson-11b097220/'
+  // },
   
   
 ];

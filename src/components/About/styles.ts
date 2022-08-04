@@ -11,6 +11,7 @@ export const Container = styled.div` //PAI
   height:100%;
   padding:0.5rem; 
   margin-bottom:2rem;
+  max-width: 1440px;
 `
 export const ContainerAbout = styled.div`//FILHO
   //border:1px solid black;
@@ -168,7 +169,7 @@ export const BtnHireMe = styled.button` //BOTÃO HIRE ME
     background:#34A1CD;    
     font-size: 16px;
     padding:1rem;
-    font-weight:700;
+    font-weight:500;
     border:none;
     border-radius:8px;
     width:15rem;

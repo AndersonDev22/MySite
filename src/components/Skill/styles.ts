@@ -11,6 +11,7 @@ export const Container = styled.div` //PAI
   //height:0 auto;
   //padding:1rem; 
   margin-bottom:2rem;
+  max-width: 1440px;
 
   h1{
     //border:1px solid gray;
@@ -75,15 +76,15 @@ export const ContainerSkill = styled.div` //FILHO
   
   div{
     //border: 2px solid green;  
-    width:15rem;
+    width:10rem;
     border-radius:30px;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     margin:2rem;
-    padding:1rem;
-    box-shadow: 0px 5px 10px 5px #e9e8ff;
+    /* padding:1rem;
+    box-shadow: 0px 5px 10px 5px #e9e8ff; */
 
     @media screen and (max-width:1440px){
       width:300px;

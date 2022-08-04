@@ -1,14 +1,10 @@
-import React, { useRef } from 'react'
-//import emailjs from "emailjs-com";
+import React from 'react'
 import emailjs from '@emailjs/browser';
 import ilustracao from '../../images/Iustracaoemail.png'
 import PhoneInput from '../InputPhone'
 import { StyledInput, BtnSubmit, Container, ContainerForm, Form, SectionImage, Message } from './styles';
 
 const Contact: React.FC = () => {
-  
-  const form = useRef();
-
   const sendEmail = (e:any) => {
     e.preventDefault();
 
@@ -21,36 +17,25 @@ const Contact: React.FC = () => {
       e.target.reset()
     };
 
-  return (
-    
+  return (    
     <Container id="contact">
-
       <h1> 
         &gt;&gt;&gt;&nbsp; Contact-me &nbsp;&lt;&lt;&lt;
       </h1>
-
-      <ContainerForm>
-        
+      <ContainerForm>        
         <SectionImage>
          <figure>
             <img src={ilustracao} alt="" />
          </figure>
         </SectionImage>
-
         <Form onSubmit={sendEmail}> 
-
           <StyledInput type="text" placeholder="Your Name*" name="name"/>
           <StyledInput type="email" placeholder="Your Email*" name="email"/>
           <PhoneInput name="phone"/>
           <Message placeholder="Message" name="message"/>
-          <BtnSubmit type="submit" value="send">Submit</BtnSubmit>
-          
+          <BtnSubmit type="submit" value="send">Enviar</BtnSubmit>  
         </Form>
-
       </ContainerForm>
-
     </Container>
-
-  );
-}
+  );}
 export default Contact;

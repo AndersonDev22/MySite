@@ -30,34 +30,28 @@ export const Container = styled.div` //PAI
 }
 `
 export const ContainerSkill = styled.div` // FILHO
-  border:1px solid black; 
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
   width: 100%;
-  height:100%;
-  max-width:100%;
+  max-width:70%;
   
   img{
       display:flex;
-      width:40rem;
-      height:0 auto;
-      margin:1rem;
-      max-width:100%;
-      border:1px solid #b09dc7;
-      border-radius:10px;
-      cursor: pointer;    
+      width:100%;
+      margin:0 auto;
      }
   
   div{
-    //border:1px solid black;
+    border:1px solid #b09dc7;
     display:flex;
     justify-content:center;
     align-items:center;
     margin:0.5rem;
-    width:40rem;
-    height:0 auto;
-    max-width:100%;
+    width:30rem;
+    /* height:0 auto;
+    max-width:100%; */
+    cursor: pointer;
 
     &:hover{
       transition:0.3s;

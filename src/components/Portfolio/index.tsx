@@ -1,7 +1,7 @@
 import React from "react";
 import projeto1 from '../../images/pokemon.png';
-import projeto2 from '../../images/projeto2.jpg';
-import projeto3 from '../../images/projeto3.jpg';
+import projeto2 from '../../images/todolist.png';
+import projeto3 from '../../images/ninjamail.png';
 import projeto4 from '../../images/projeto4.png';
 import projeto5 from '../../images/projeto5.jpg';
 import projeto6 from '../../images/projeto6.png';
@@ -16,12 +16,12 @@ const Skills = [
   {
     id:'2',
     Image: <img src={projeto2} alt="image 02" />,
-    //Text: <h3>CSS 3</h3>,
+    link:'https://project-todo-list-sable.vercel.app/'
   },
   {
     id:'3',
     Image: <img src={projeto3} alt="image 03" />,
-    //Text: <h3>REACT JS</h3>,
+    link:'https://ninjamail-pink.vercel.app/'
   },
   {
     id:'4',
